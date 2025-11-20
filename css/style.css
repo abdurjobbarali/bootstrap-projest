@@ -1,0 +1,52 @@
+/* All common css start  */
+*{
+    margin: 0;
+    padding: 0;
+box-sizing: border-box;
+outline:0
+}
+ul ol{
+    list-style-type: none;
+}
+a, a:hover{
+    text-decoration: none;
+}
+h1,h2,h3,h4,h5,h6{
+    margin: 0;
+    padding: 0;
+    line-height: 0.8;
+}
+/* All common css end */
+/* Header part start */
+.navbar{
+position: fixed;
+left: 0;
+top: 0;
+width: 100%;
+}
+.nav-link{
+    color: #ddd;
+    font-size: 16px;
+    font-weight: 400;
+   font-family: font-family: "Oswald", sans-serif;;
+}
+.socialpart a{
+margin: 0 10px;
+color: #ddd;
+ font-size: 16px;
+    font-weight: 400;
+   font-family: font-family: "Oswald", sans-serif;
+}
+/* Header part end */
+/* Banner part start  */
+#bannerpart {
+    padding-top: 340px;
+    padding-bottom: 100px;
+background: url(../images/banner\ 2.png);
+background-repeat: no-repeat
+;
+background-position: center;
+background-size: cover;
+}
+
+/* Banner part end  */
