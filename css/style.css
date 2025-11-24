@@ -10,6 +10,7 @@ ul ol{
 }
 a, a:hover{
     text-decoration: none;
+    display: inline-block;
 }
 h1,h2,h3,h4,h5,h6{
     margin: 0;
@@ -28,14 +29,14 @@ width: 100%;
     color: #ddd;
     font-size: 16px;
     font-weight: 400;
-   font-family: font-family: "Oswald", sans-serif;;
+   font-family: "Oswald", sans-serif;;
 }
 .socialpart a{
 margin: 0 10px;
 color: #ddd;
  font-size: 16px;
     font-weight: 400;
-   font-family: font-family: "Oswald", sans-serif;
+   font-family:  "Oswald", sans-serif;
 }
 /* Header part end */
 /* Banner part start  */
@@ -48,5 +49,113 @@ background-repeat: no-repeat
 background-position: center;
 background-size: cover;
 }
+.bannertext h3{
+    font-size: 27px;
+    font-weight: 400;
+    color: #fff;
+      font-family:  "Oswald", sans-serif;
+     
+}
+.bannertext h1{
+      font-size: 60px;
+    font-weight: 600;
+    color: #fff;
+      font-family:  "Oswald", sans-serif;
+    padding: 30px  0;
+    position: relative;
+}
+.bannertext h1 ::after{
+    position: absolute;
+    height: 4px;
+    width: 90px;
+    background: #fff;
+    right: 20px;
+    bottom: 30px;
+    content:"" ;
+}
+  
+
+
+
+.bannertext p{
+    font-size: 16px;
+    font-weight:400;
+    color: #fff;
+    font-family:    "Oswald", sans-serif;
+    line-height: 24px;
+    padding-right: 109px;
+    padding-bottom: 50px;
+
+    
+
+}
+.bannertext a{
+    padding: 13px 25px;
+    font-weight: 400;
+    font-size: 16px;
+    font-family: "Oswald", sans-serif;
+    background:#ffff;
+    color: #121212;
+ margin-bottom: 300px;
+
+}
+.socialicon a{
+  color: #D9D9D9;
+  font-size: 35px;
+
+    
+}
+
 
 /* Banner part end  */
+ /* About part start  */
+#aboutpart{
+    background: #121212;
+    padding-top: 35px;
+    padding-bottom: 80px;
+}
+.aboutHeading h3{
+       font-size: 38px;
+    font-weight: 600;
+    color: #fff;
+      font-family:  "Oswald", sans-serif;
+      line-height: 38px;
+      padding-right: 108px;
+      position: relative;
+    
+}
+.aboutHeading h3::after{
+    position: absolute;
+    height: 3px;
+    width: 120px;
+    background: #ff4655;
+ left: 200px;
+    bottom: 0px;
+   
+    content:"" ;
+}
+.aboutcard{
+    margin-top: 60px;
+}
+.aboutpoint h3{
+    font-size: 27px;
+    font-weight: 600;
+    color: #fff;
+      font-family:  "Oswald", sans-serif;
+      text-transform: uppercase;
+      padding-bottom: 20px;
+}
+.aboutpoint h5{
+   padding-top: 10px;
+ font-size: 18px;
+    font-weight: 400;
+    color: #fff;
+      font-family:  "Oswald", sans-serif;
+     
+}
+.aboutpoint i{
+   
+    color:#ff4655 ;
+    margin-right:5px ;
+}
+/* About part end  */
